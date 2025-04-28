@@ -27,4 +27,28 @@ Ensure you have the following installed:
 3. Install dependencies:  npm install
 4. To start the frontend development server, run:
     npm start
-5. find the backend repo : https://github.com/NuriaAgbasi/HMTS-dts-challenge-backend 
+5. find the backend repo : https://github.com/NuriaAgbasi/HMTS-dts-challenge-backend
+
+    ###  **How to Run the Application (Development Environment)**
+This section will explain how to run both the frontend and backend together.
+
+## Running the Application
+
+1. Start the backend:
+    ```bash
+   cd backend
+   npm start
+
+2.In another terminal window, start the frontend: cd frontend
+npm start
+This will run the frontend on http://localhost:3000 and the backend on http://localhost:5000. The frontend will make API requests to the backend to manage tasks.
+
+
+
+### **Technologies Used**
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js, Supabase/PostgreSQL
+- **Database:** Supabase/PostgreSQL
+- **Version Control:** Git, GitHub
+- **Other Tools:** Axios (for API calls)
+
