@@ -1,13 +1,30 @@
-# React + Vite
+# HMCTS Case Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a case management system designed for managing court cases and related tasks for HMCTS. The system allows users to create, update, delete, and view case-related tasks. It includes a user-friendly frontend and a robust backend API to handle task data.
 
-Currently, two official plugins are available:
+This solution was created for the HMCTS Developer Challenge.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Create, update, and delete tasks.
+- Task listing and filtering.
+- Responsive design for easy use on desktop and mobile devices.
 
-## Expanding the ESLint configuration
+ ## Frontend Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# HMTS-dts-challenge-frontend
+The frontend of this application is built using React.js, a popular JavaScript library for building user interfaces.
+
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14.x or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. Create a folder
+2. Clone the repository:
+   git clone https://github.com/NuriaAgbasi/HMTS-dts-challenge-frontend
+   cd hmcts-dts-challenge/frontend
+3. Install dependencies:  npm install
+4. To start the frontend development server, run:
+    npm start
+5. find the backend repo : https://github.com/NuriaAgbasi/HMTS-dts-challenge-backend 
